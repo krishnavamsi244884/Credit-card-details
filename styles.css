@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width:400px;
+    padding: 20px;
+
+}
+
+input{
+    border-radius: 5px;
+    height: 25px;
+}
+.input_container{
+    width: 100%;
+}
+.maininput{
+    width: 100%;
+}
+
+.lastsection{
+    display: flex;
+    gap:25px;
+}
+.lastsection label{
+    display: block;
+}
+.lastsection input{
+ width: 100%;
+}
+
+button{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
